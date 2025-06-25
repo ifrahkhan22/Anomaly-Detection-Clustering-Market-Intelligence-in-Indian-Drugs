@@ -9,25 +9,26 @@ A comprehensive exploratory data analysis (EDA) and clustering project on over 2
 ✅ Cleaned and enhanced for analysis: derived fields like `price_per_unit`, `is_combo`, `log_price`, `CV`, `clusters`, and 'anomaly flags'.
 
 
-IMPORTANT TAKEAWAYS:
+ 
+🔍IMPORTANT TAKEAWAYS:
 
--Price Normalization: regardless of pack size, price-per-unit column generated enables equitable comparisons between products.
+-📈Price Normalization: regardless of pack size, price-per-unit column generated enables equitable comparisons between products.
 
--The Combo Drug Flag is used to identify complicated formulations that contain more than one active component.
+-💊The Combo Drug Flag is used to identify complicated formulations that contain more than one active component.
 
--The price variation by dose form is confirmed to be significant by the ANOVA + Tukey test.
+-🧰The price variation by dose form is confirmed to be significant by the ANOVA + Tukey test.
 
--Volatility Detection: Inconsistent medicine prices are flagged by the Coefficient of Variation (CV).
+-⚠️Volatility Detection: Inconsistent medicine prices are flagged by the Coefficient of Variation (CV).
 
--Extreme outliers within drug-strength groups are flagged by the Z-score.
+-🚨Extreme outliers within drug-strength groups are flagged by the Z-score.
 
--Clustering: K-Means classifies products according on formulation count, pack size, and price.
+-🏭Clustering: K-Means classifies products according on formulation count, pack size, and price.
 
--Top Manufacturers: Pie and bar charts show market dominance trends.
+-🏭Top Manufacturers: Pie and bar charts show market dominance trends.
 
 
 
-TOOLS USED:
+📌TOOLS USED:
 
 - Python Libraries: pandas, numpy, matplotlib, scikit-learn, statsmodels, matplotlib
   
@@ -35,7 +36,7 @@ TOOLS USED:
   
 - Machine Learning: K-Means Clustering
   
-- Visualization: Power BI
+- 📊Visualization: Power BI
 
 *After running the script you will find three main output files in your working directory :
                                                                                                                           
@@ -49,13 +50,13 @@ TOOLS USED:
 
 This project provides stakeholders with:
 
-- Pricing intelligence for product benchmarking.
+- 🧾Pricing intelligence for product benchmarking.
   
-- Supplier analysis to identify key manufacturers
+- 📊 Supplier analysis to identify key manufacturers
   
-- Market segmentation to inform business strategy
+- ✅ Market segmentation to inform business strategy
   
-- Data-driven decisions for compliance and procurement teams
+- 🏢 Data-driven decisions for compliance and procurement teams
 
   Feel free to share your views.
   Let's get connected : https://www.linkedin.com/in/ifrah-khan-8873072b5/
