@@ -58,5 +58,8 @@ This project provides stakeholders with:
   
 - 🏢 Data-driven decisions for compliance and procurement teams
 
+ 
+
   Feel free to share your views.
+
   Let's get connected : https://www.linkedin.com/in/ifrah-khan-8873072b5/
