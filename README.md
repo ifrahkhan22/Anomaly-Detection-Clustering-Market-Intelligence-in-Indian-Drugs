@@ -20,6 +20,13 @@ TOOLS USED:
 - Machine Learning: K-Means Clustering
 - Visualization: Power BI
 
+*After running the script you will find three main output files in your working directory :
+                                                                                                                          
+'pharma_enriched_clean.xlsx' -  Cleaned and enriched dataset with additional fields like `price_per_unit`, `is_combo`, `logprice`, `z_price`, `cluster` 
+`high_cv_drugs.xlsx`         -  List of drug-strength combinations with high Coefficient of Variation (CV), signaling price volatility                  
+`price_anomalies.xlsx`       -  Products flagged as price outliers using Z-score filtering within their ingredient-strength group                       
+
+
 This project provides stakeholders with:
 - Pricing intelligence for product benchmarking.
 - Supplier analysis to identify key manufacturers
