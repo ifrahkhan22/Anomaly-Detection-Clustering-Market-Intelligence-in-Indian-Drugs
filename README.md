@@ -1,28 +1,28 @@
-# IndiaRx-Insights-EDA-of-250K-Indian-Pharmaceutical-Products
-Data Cleaning & Enrichment:
-The dataset was first cleaned by removing duplicates and standardizing packaging and composition fields. From this, new fields like price_per_unit, num_active_ingredients, and is_combo (combo drug flag) were derived.
+# Anomaly Detection, Clustering & Market Intelligence in Indian Drugs
 
-Price Analysis:
-We visualized the distribution of medicine prices, using log transformation to address skewness, and performed outlier detection using interquartile range (IQR). The presence of pricing anomalies was flagged and quantified.
+DESCRIPTION:
+A comprehensive exploratory data analysis (EDA) and clustering project on over 250,000 pharmaceutical products marketed in India. This project xomines Python-based analysis with a Power BI dashboard to deliver insights into medicine pricing, formulation trends, market concentration, and product segmentation.
 
-Composition Trends:
-By analyzing the number of active ingredients, we determined that a significant share of products are combination drugs, and created a metric to track their proportion. This is relevant for both therapeutic effectiveness and regulatory scrutiny.
+✅ Cleaned and enhanced for analysis: derived fields like `price_per_unit`, `is_combo`, `log_price`, `CV`, `clusters`, and 'anomaly flags'.
 
-Market Competition:
-The project includes a Top 5 manufacturer analysis, exposing market dominance patterns. We also clustered drugs using K-Means based on price and quantity attributes, revealing meaningful product segmentation (e.g., premium, standard, or bulk-pack segments).
+IMPORTANT TAKEAWAYS:
+-Price Normalization: regardless of pack size, price-per-unit column generated enables equitable comparisons between products.
+-The Combo Drug Flag is used to identify complicated formulations that contain more than one active component.
+-The price variation by dose form is confirmed to be significant by the ANOVA + Tukey test.
+-Volatility Detection: Inconsistent medicine prices are flagged by the Coefficient of Variation (CV).
+-Extreme outliers within drug-strength groups are flagged by the Z-score.
+-Clustering: K-Means classifies products according on formulation count, pack size, and price.
+-Top Manufacturers: Pie and bar charts show market dominance trends.
 
-Volatility Detection:
-The coefficient of variation (CV) was calculated for each drug-strength combination to identify products with high price variability—a potential sign of supply chain inconsistency or unregulated pricing.
+TOOLS USED:
+- Python Libraries: pandas, numpy, matplotlib, scikit-learn, statsmodels, matplotlib
+- Statistical Techniques: ANOVA, Tukey HSD, Coefficient of Variation (CV), Z-Score
+- Machine Learning: K-Means Clustering
+- Visualization: Power BI
 
-📈 Visualizations
-Multiple visualizations were created using Matplotlib, including:
-
-Histogram of price per unit (log scale)
-
-Boxplots by dosage form
-
-Bar charts for combo drug share and anomalies by manufacturer
-
-Scatter plots of cluster segments
-
-These visuals provide a rich, interpretable layer to the analysis, and can be recreated interactively in Power BI.
+This project provides stakeholders with:
+- Pricing intelligence for product benchmarking.
+- Supplier analysis to identify key manufacturers
+- Market segmentation to inform business strategy
+- Data-driven decisions for compliance and procurement teams
+  
